@@ -13,7 +13,7 @@
     <title>Work Day Scheduler</title>
 </head>
 
-<body style="background: url(assets/so-white.png)" onload='init()'>
+<body onload="init()" style="background: url(assets/so-white.png)">
     <header class="jumbotron">
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -23,27 +23,29 @@
         <!-- Timeblocks go here -->
 
 
-        <div id="r9" class="row">
+        <div class="row">
             <div class="col-md-1 hour">
                 9AM
             </div>
             <textarea id="t9" class="col-md-10">
 
             </textarea>
-            <button class="col-md-1 far fa-save saveBtn" onclick="saveAppt('t9', document.getElementById('t9').value)">
+            <button class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t9', document.getElementById('t9').value)">
             </button>
         </div>
 
 <!--------------------------->
 
-        <div id="r10" class="row time-block">
+        <div class="row">
             <div class="col-md-1 hour">
                 10AM
             </div>
             <textarea id="t10" class="col-md-10">
 
             </textarea>
-            <button id="c10" class="col-md-1 far fa-save saveBtn" style="text-align: center; padding: 10px;"> 
+            <button id="c10" class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t10', document.getElementById('t10').value)"> 
 
             </button>
         </div>
@@ -57,7 +59,8 @@
             <textarea id="t11" class="col-md-10">
 
             </textarea>
-            <button id="c11" class="col-md-1 far fa-save saveBtn" style="text-align: center; padding: 10px;"> 
+            <button id="c11" class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t11', document.getElementById('t11').value)"> 
 
             </button>
 <!--------------------------->
@@ -70,7 +73,8 @@
             <textarea id="t12" class="col-md-10">
 
             </textarea>
-            <button id="c12" class="col-md-1 far fa-save saveBtn" style="text-align: center; padding: 10px;"> 
+            <button id="c12" class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t12', document.getElementById('t12').value)"> 
 
             </button>
         </div>
@@ -84,7 +88,8 @@
             <textarea id="t13" class="col-md-10">
 
             </textarea>
-            <button id="c1" class="col-md-1 far fa-save saveBtn" style="text-align: center; padding: 10px;"> 
+            <button id="c1" class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t13', document.getElementById('t13').value)"> 
 
             </button>
         </div>
@@ -98,7 +103,8 @@
             <textarea id="t14" class="col-md-10">
 
             </textarea>
-            <button id="c2" class="col-md-1 far fa-save saveBtn" style="text-align: center; padding: 10px;"> 
+            <button id="c2" class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t14', document.getElementById('t14').value)"> 
 
             </button>
         </div>
@@ -112,7 +118,8 @@
             <textarea id="t15" class="col-md-10">
 
             </textarea>
-            <button id="c3" class="col-md-1 far fa-save saveBtn" style="text-align: center; padding: 10px;"> 
+            <button id="c3" class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t15', document.getElementById('t15').value)"> 
 
             </button>
         </div>
@@ -126,7 +133,8 @@
             <textarea id="t16" class="col-md-10">
 
             </textarea>
-            <button id="c4" class="col-md-1 far fa-save saveBtn" style="text-align: center; padding: 10px;"> 
+            <button id="c4" class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t16', document.getElementById('t16').value)"> 
 
             </button>
         </div>
@@ -140,22 +148,19 @@
             <textarea id="t17" class="col-md-10">
 
             </textarea>
-            <button id="c5" class="col-md-1 far fa-save saveBtn" style="text-align: center; padding: 10px;"> 
+            <button id="c5" class="col-md-1 far fa-save saveBtn"
+            onclick="saveAppt('t17', document.getElementById('t17').value)"> 
 
             </button>
         </div>
 
 <!--------------------------->
-
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="script.js"></script>
     </div>
     <br><br> <br><br>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="script.js"></script>
-
-
-    
 </body>
 
 </html>
