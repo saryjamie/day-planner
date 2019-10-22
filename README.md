@@ -24,6 +24,6 @@ Near the top of the calendar, the application displays the current day. Addition
 
 Poor time management can result in missed meetings and deadlines or create the appearance of unprofessionalism. A daily planner allows employees to see their day at a glance, schedule time effectively, and improve productivity. 
 
-
+![](images/dayPlanner.png)
 
 © 2019 Sary Jamie. All Rights Reserved.
